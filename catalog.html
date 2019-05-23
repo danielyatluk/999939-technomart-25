@@ -84,7 +84,7 @@
 
  		<ul class="menu-catalog">
  			<li>
- 				<a class="home" href="catalog.html"></a>
+ 				<a class="home" href="catalog.html" aria-label="update page"></a>
  			</li>
  			<li>
  				<a href="#">каталог</a>
@@ -162,9 +162,10 @@
  		<button type="submit" class="filter-button">показать</button>
 
  		</fieldset>
+
  	</form>
 
- 	<section class="list-perforators">
+ 	<section class="list-perforators" aria-label="list of perforators">
 
  		<h2 class="visually-hidden">ПЕРФОРАТОРЫ</h2>
  		
@@ -284,21 +285,28 @@
  				</div>
  			</li>
  		</ul>
+
  	</section>
 
  	<section class="basket">
 
  		<h2 class="visually-hidden">Корзина</h2>
 
- 		<form class="basket-form" action="https://echo.htmlacademy.ru" method="post">
+ 		<div class="basket-window">
 
  			<p>Товар добавлен в корзину!</p>
 
+ 			<button class="button" aria-label="close">
+ 				<a class="close-icon">
+ 					<img src="img/elements/icon-close.svg">
+ 				</a>
+ 			</button>
+
  			<button class="button" type="submit">ОФОРМИТЬ ЗАКАЗ</button>
 
- 			<button class="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+ 			<a class="button" href="#">ПРОДОЛЖИТЬ ПОКУПКИ</button>
 
- 		</form>
+ 		</div>
 
  	</section>
 
