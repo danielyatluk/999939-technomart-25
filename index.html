@@ -91,7 +91,7 @@
     	<p>Мы можем доставить ваш товар в самые отдаленные точки России! </br>
     	Техномарт работает со многими транспортными компаниями: </p>
 
-    	<ul class="company-names" aria-label="company-names">
+    	<ul class="company-names" aria-label="имена компаний">
     		<li>Деловые линии</li>
     		<li>Автотрейдинг</li>
     		<li>ЖелДорЭкспедиция</li>
@@ -116,24 +116,35 @@
 
     </section>
 
+    <div class="map-popup" aria-label="полная карта">
+
+    	<button type="button" aria-label="закрыть попап"></button>
+
+    	<a class="map-full">
+  				<img src="img/map-full" width="940" height="446" alt="полный адресс на карте">
+ 		</a>
+
+    </div>
+
     <section class="mail">
     	
     	<h2 class="visually-hidden">Форма связи</h2>
 
     	<form class="mail-form" action="https://echo.htmlacademy.ru" method="post">
 
+    		<button type="button" aria-label="закрыть попап"></button>
+
     		<p class="mail-item">
     			<label for="mail-name">Ваше имя:</label>
-    			<input id="mail-name" type="text" name="name-surname" value="" placeholder="Имя Фамилия"></input>	
+    			<input id="mail-name" type="text" name="name-surname" placeholder="Имя Фамилия">	
     		</p>
     		<p class="mail-item">
     			<label for="mail-email">Ваш e-mail:</label>
-    			<input id="mail-email" type="text" name="e-mail" value="" placeholder="email@example.com"></input>	
+    			<input id="mail-email" type="text" name="e-mail" placeholder="email@example.com">	
     		</p>
     		<p class="mail-item">
     			<label for="mail-text">Текст письма:</label>
-    			<input id="mail-text" type="text" name="text" value="" placeholder="В свободной форме"></input>	
-    		</p>
+    			<input id="mail-text" type="text" name="text" placeholder="В свободной форме">
 
     		<button class="button" type="submit">ОТПРАВИТЬ</button>
     		
