@@ -28,14 +28,181 @@ a {
 }
 
 .top-menu-navigation,
-.user,
-.main-navigation {
+.user {
   list-style: none;
 }
 
 .top-menu-navigation a,
-.user a,
+.user a {
+  color: #ffffff;
+}
+
+.top-menu-navigation a:hover,
+.top-menu-navigation a:focus,
+.user a:hover,
+.user a:focus {
+  background-color: #242424;
+}
+
+h1 {
+  width: 196px;
+  height: 60px;
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ee3643;
+} 
+
+/*не понял как адресс стилизовать если номер телфона одним цветом а адресс другим, но это все внутри одного тега лежит*/
+
+.main-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  /*width: 940px;
+  height: 60px; это с зеплина копировал, не знаю нужны в данный момент размеры или нет*/
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+}
+
+.main-navigation {
+  list-style: none;
+}
+
 .main-navigation a {
   color: #ffffff;
 }
 
+.main-navigation a:hover,
+.main-navigation a:focus {
+  background-color: #242424;
+}
+
+.index-columns {
+  color: #000000;
+
+  background-color: #ffffff;
+  background-image: url("img/pattern-light.jpg"); /* нужно из фотошопа вырезать задний фон чтоб подключать его картинкой? */
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.company-names {
+	list-style: none;
+}
+
+.map-address {
+  background-color: #cccccc;
+}
+
+.company-names a,
+.map-address a {
+  color: #ffffff;
+}
+
+.company-names a:hover,
+.company-names a:focus,
+.map-address a:hover,
+.map-address a:focus {
+  background-color: #242424;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.main-footer {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+
+  background-color: #32425c;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-navigation {
+  list-style: none;
+}
+
+.footer-navigation a {
+	color: #ffffff;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus,
+{
+  background-color: #242424;
+}
+
+.footer-extras {
+  list-style: none;
+}
+
+.footer-extras a {
+	color: #ffd180;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus,
+{
+  background-color: #242424;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright ul {
+  list-style: none;
+}
+
+.footer-copyright {
+  color: #000000;
+
+  background-color: #293449;
+}
+
+.footer-feedback a {
+  color: #ffd180;
+}
+
+.footer-developers a {
+  color: #ffd180;
+}
