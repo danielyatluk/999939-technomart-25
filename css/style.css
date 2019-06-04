@@ -160,6 +160,7 @@ h1 {
 .footer-navigation a:hover,
 .footer-navigation a:focus
 {
+  text-decoration: underline;
   background-color: #242424;
 }
 
@@ -174,6 +175,7 @@ h1 {
 .footer-extras a:hover,
 .footer-extras a:focus
 {
+  text-decoration: underline;
   background-color: #242424;
 }
 
