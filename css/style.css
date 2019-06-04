@@ -189,6 +189,11 @@ h1 {
   color: #ffffff;
 }
 
+.footer-social a:hover,
+.footer-social a:focus {
+  background-color: #ee3643;
+}
+
 .footer-copyright {
   text-align: center;
 }
@@ -207,8 +212,26 @@ h1 {
   color: #ffd180;
 }
 
+.footer-feedback a:hover {
+  text-decoration: underline;
+
+}
+
+.footer-feedback a:focus {
+  color: #ee3643;
+}
+
 .footer-developers a {
   color: #ffd180;
+}
+
+.footer-developers a:hover {
+  text-decoration: underline;
+
+}
+
+.footer-developers a:focus {
+  color: #ee3643;
 }
 
 .inner-page {
