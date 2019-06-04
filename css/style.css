@@ -44,6 +44,10 @@ a {
   background-color: #242424;
 }
 
+a.button-green {
+	background-color: #63a63e;
+}
+
 h1 {
   width: 196px;
   height: 60px;
