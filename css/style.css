@@ -206,3 +206,18 @@ h1 {
 .footer-developers a {
   color: #ffd180;
 }
+
+.inner-page {
+	color: #000000;
+
+	background-color: #ffffff;
+	background-image: url("img/pattern-light.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+h2 {
+	color: 32425c;
+	font-size: 30px;
+	line-height: 30px;
+}
