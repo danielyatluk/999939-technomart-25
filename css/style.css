@@ -154,7 +154,7 @@ h1 {
 }
 
 .footer-navigation a:hover,
-.footer-navigation a:focus,
+.footer-navigation a:focus
 {
   background-color: #242424;
 }
@@ -168,7 +168,7 @@ h1 {
 }
 
 .footer-extras a:hover,
-.footer-extras a:focus,
+.footer-extras a:focus
 {
   background-color: #242424;
 }
