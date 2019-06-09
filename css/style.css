@@ -288,3 +288,61 @@ h2 {
 	padding-right: 197px;
 	background-position: left center;
 }
+
+.top-menu-navigation-cart {
+	display: flex;
+	background-image: url("../img/elements/icon-cart.svg");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}
+
+.top-menu-navigation-cart-link {
+	display: flex;
+	align-items: center;
+}
+
+.main-header-middle {
+	display: flex;
+	height: 158px;
+	width: 940px;
+	margin: 0 auto;
+	background-color: #f4f7f9;
+}
+
+.h1 {
+	display: flex;
+	padding-left: 53px;
+}
+
+.address-top {
+	display: flex;
+	padding-left: 71px;
+	background-image: url("../img/elements/icon-phone.svg");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+	width: 270px;
+	height: 45px;
+	border: 3px solid white;
+}
+
+.login-link {
+	display: flex;
+	padding-left: 69px;
+	align-items: center;
+}
+
+.icon-login {
+	display: flex;
+	background-image: url("../img/elements/icon-login.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 35px;
+}
+
+.registration-link {
+	display: flex;
+	padding-left: 10px;
+	align-items: center;
+}
