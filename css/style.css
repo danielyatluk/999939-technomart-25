@@ -7,8 +7,6 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
-  text-transform: uppercase;
-
   background-color: #ffffff;
   background-image: url("img/bg.jpg");
   background-position: top center;
@@ -30,6 +28,9 @@ a {
 .top-menu-navigation,
 .user {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .top-menu-navigation a,
@@ -62,14 +63,10 @@ h1 {
   color: #ee3643;
 } 
 
-/*не понял как адресс стилизовать если номер телфона одним цветом а адресс другим, но это все внутри одного тега лежит*/
-
 .main-navigation {
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
-  /*width: 940px;
-  height: 60px; это с зеплина копировал, не знаю нужны в данный момент размеры или нет*/
   box-shadow: inset 0px -5px 0 0 #293449;
   background-color: #32425c;
 }
@@ -91,7 +88,7 @@ h1 {
   color: #000000;
 
   background-color: #ffffff;
-  background-image: url("img/pattern-light.jpg"); /* нужно из фотошопа вырезать задний фон чтоб подключать его картинкой? */
+  background-image: url("img/pattern-light.jpg"); 
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -249,4 +246,45 @@ h2 {
 	color: 32425c;
 	font-size: 30px;
 	line-height: 30px;
+}
+
+/*разметка сеток*/
+.main-header {
+	margin-bottom: 46px;
+	min-height: 47px;
+}
+
+.main-header-top {
+	display: flex;
+	height: 42px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.top-menu-navigation-bookmarks {
+	display: flex;
+	background-image: url("../img/elements/icon-bookmark.svg");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}
+
+.top-menu-navigation-bookmarks-link {
+	display: flex;
+	align-items: center;
+}
+
+.main-header-logo {
+	display: flex;
+	padding-right: 17px;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	background-image: url("../img/elements/icon-search.svg");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-right: 197px;
+	background-position: left center;
 }
