@@ -311,9 +311,10 @@ h2 {
 	background-color: #f4f7f9;
 }
 
-.h1 {
-	display: flex;
+h1 {
 	padding-left: 53px;
+	margin-right: 71px;
+	padding-top: 35px;
 }
 
 .address-top {
@@ -328,6 +329,16 @@ h2 {
 	border: 3px solid white;
 }
 
+address a {
+	color: #ee3643;
+	list-style: none;
+	align-items: center;
+
+}
+
+address {
+	padding-top: 46px;
+}
 .login-link {
 	display: flex;
 	padding-left: 69px;
