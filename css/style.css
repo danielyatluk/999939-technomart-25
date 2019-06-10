@@ -333,12 +333,25 @@ address a {
 	color: #ee3643;
 	list-style: none;
 	align-items: center;
-
+	font-family: Cuprum;
+	font-size: 21px;
+	font-style: normal;
 }
 
 address {
 	padding-top: 46px;
 }
+
+.address-text {
+	font-family: Cuprum;
+	font-size: 14px;
+	font-style: normal;
+	color: #32425c;
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
 .login-link {
 	display: flex;
 	padding-left: 69px;
@@ -365,7 +378,10 @@ address {
 	width: 940px;
 	margin: 0 auto;
 	background-color: #32425c;
+}
+
+.main-navigation {
+	display: flex;
 	flex-direction: column;
-    align-items: center;
-    list-style: none;
+list-style: none;
 }
