@@ -3,6 +3,7 @@ body {
   padding: 0;
 
   font-family: "Cuprum", Arial, sans-serif;
+  font-family: "PTSans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 700;
@@ -383,5 +384,97 @@ address {
 .main-navigation {
 	display: flex;
 	flex-direction: column;
-list-style: none;
+	list-style: none;
 }
+
+.index-columns {
+	display: flex;
+	height: 836px;
+	width: 940px;
+	margin-top: 82px;
+	background-color: #ffffff;
+	margin-left: 482px;
+	/*padding-right: 130px;
+	padding-left: 130px;
+	padding-right: 130px;*/
+}
+
+.info h2 {
+  	display: inline;
+  	height: 21px;
+  	width: 300px;
+  	font-family: Cuprum;
+  	font-size: 30px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #000000;
+}
+
+.info p {
+  	width: 519px;
+  	height: 37px;
+  	font-family: PTSans;
+  	font-size: 13px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.85;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #000000;
+}
+
+.padding-for-line {
+  	padding-top: 36px;
+  	width: 386px;
+  	font-family: PTSans;
+  	font-size: 13px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.85;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #000000;
+}
+
+.contacts {
+  	padding-left: 120px;
+}
+
+.contacts h2 {
+  	display: inline;
+  	height: 21px;
+  	font-family: Cuprum;
+  	font-size: 30px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1;
+  	letter-spacing: normal;
+  	color: #000000;
+}
+
+.company-names {
+	display: inline;
+  	width: 109px;
+  	height: 17px;
+  	font-family: Cuprum;
+  	font-size: 18px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+ 	line-height: 1.11;
+ 	letter-spacing: normal;
+  	text-align: left;
+  	color: #000000;
+}
+
+
+
+
+
