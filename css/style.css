@@ -400,46 +400,46 @@ address {
 }
 
 .info h2 {
-  	display: inline;
-  	height: 21px;
-  	width: 300px;
-  	font-family: Cuprum;
-  	font-size: 30px;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-stretch: normal;
-  	line-height: 1;
-  	letter-spacing: normal;
-  	text-align: left;
-  	color: #000000;
+  display: inline;
+  height: 21px;
+  width: 300px;
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
 
 .info p {
-  	width: 519px;
-  	height: 37px;
-  	font-family: PTSans;
-  	font-size: 13px;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-stretch: normal;
-  	line-height: 1.85;
-  	letter-spacing: normal;
-  	text-align: left;
-  	color: #000000;
+  width: 519px;
+  height: 37px;
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
 
 .padding-for-line {
-  	padding-top: 36px;
-  	width: 386px;
-  	font-family: PTSans;
-  	font-size: 13px;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-stretch: normal;
-  	line-height: 1.85;
-  	letter-spacing: normal;
-  	text-align: left;
-  	color: #000000;
+  padding-top: 36px;
+  width: 386px;
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
 
 .contacts {
@@ -447,16 +447,16 @@ address {
 }
 
 .contacts h2 {
-  	display: inline;
-  	height: 21px;
-  	font-family: Cuprum;
-  	font-size: 30px;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-stretch: normal;
-  	line-height: 1;
-  	letter-spacing: normal;
-  	color: #000000;
+  display: inline;
+  height: 21px;
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #000000;
 }
 
 .contacts p {
@@ -498,17 +498,17 @@ address {
 
 .company-names {
 	display: inline;
-  	width: 109px;
-  	height: 17px;
-  	font-family: Cuprum;
-  	font-size: 18px;
-  	font-weight: normal;
-  	font-style: normal;
-  	font-stretch: normal;
+  width: 109px;
+  height: 17px;
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
  	line-height: 1.11;
  	letter-spacing: normal;
-  	text-align: left;
-  	color: #000000;
+  text-align: left;
+  color: #000000;
 }
 
 .info_button {
