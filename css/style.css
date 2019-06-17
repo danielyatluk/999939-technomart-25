@@ -549,19 +549,21 @@ address {
 }
 
 .main-footer {
-	display: flex;
+	display: block;
   	height: 193px;
   	background-color: #32425c;
 }
 
 .main-footer-logo {
 	display: flex;
+	width: 220px;
+	height: 68px;
   	padding-left: 130px;
 }
 
 .footer-navigation {
-	padding-left: 173px;
-	padding-top: 25px;
+	display: flex;
+	padding-left: 523px;
 	width: 69px;
 	height: 13px;
 	font-family: Cuprum;
@@ -597,10 +599,9 @@ address {
 }
 
 .footer-address {
-	display: flex;
+	display: inline;
 	width: 322px;
-  	height: 40px;
-  	padding-right: 745px;
+  	height: 40px;  	
 }
 
 .footer-address-text {
@@ -615,5 +616,62 @@ address {
   	letter-spacing: normal;
   	text-align: left;
   	color: #f3f7f9;
-  	
+  	padding-left: 133px;
+}
+
+.footer-extras {
+	padding-left: 546px;
+}
+
+.footer-extras-ul {
+	display: flex;
+	list-style: none;
+  	height: 17px;
+  	font-family: Cuprum;
+  	font-size: 18px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.33;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ffd180;
+}
+
+.technics {
+	padding-left: 60px;
+}
+
+.instruments {
+	padding-left: 60px;
+}
+
+.special-offers {
+	padding-left: 60px;
+}
+
+.bottom-footer {
+	display: block;
+  	height: 107px;
+  	background-color: #293449;
+}
+
+.footer-copyright {
+  	width: 228px;
+  	height: 33px;
+  	font-family: Cuprum;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.13;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ffffff;
+  	padding-left: 133px;
+  	padding-top: 39px;
+}
+
+.footer-social {
+	
 }
