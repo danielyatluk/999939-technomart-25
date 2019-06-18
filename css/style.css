@@ -195,13 +195,8 @@ h1 {
   	text-align: center;
 }
 
-.footer-copyright ul {
-  	list-style: none;
-}
-
 .footer-copyright {
   	color: #000000;
-
 	background-color: #293449;
 }
 
@@ -284,7 +279,6 @@ h2 {
 	background-image: url("../img/elements/icon-search.svg");
 	background-repeat: no-repeat;
 	padding-left: 15px;
-	padding-right: 197px;
 	background-position: left center;
 }
 
@@ -393,13 +387,19 @@ address {
  	color: #ffffff;
 }
 
+.center-columns {
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
 .index-columns {
 	display: flex;
 	height: 836px;
 	width: 940px;
 	margin-top: 82px;
 	background-color: #ffffff;
-	margin-left: 482px;
+	/*margin-left: 482px;
 	/*padding-right: 130px;
 	padding-left: 130px;
 	padding-right: 130px;*/
@@ -543,22 +543,32 @@ address {
 	margin-top: 37px;
 }
 
+.main-footer-center {
+	background-color: #32425c;
+}
+
+.main-footer-firstline {
+	display: flex;
+}
+
 .main-footer {
 	display: block;
   	height: 193px;
-  	background-color: #32425c;
+  	width: 940px;
+	margin: 0 auto;
 }
 
 .main-footer-logo {
 	display: flex;
 	width: 220px;
 	height: 68px;
-  	padding-left: 130px;
+	padding-bottom: 15px;
 }
 
 .footer-navigation {
 	display: flex;
-	padding-left: 523px;
+	padding-top: 20px;
+	padding-left: 173px;
 	width: 69px;
 	height: 13px;
 	font-family: Cuprum;
@@ -575,6 +585,7 @@ address {
 .footer-navigation-ul {
 	display: flex;
 	list-style: none;
+	padding: 0px;
 }
 
 .news {
@@ -593,10 +604,15 @@ address {
 	padding-left: 60px;
 }
 
+.main-footer-secondline {
+	display: flex;	
+}
+
 .footer-address {
-	display: inline;
+	display: flex;
 	width: 322px;
-  	height: 40px;  	
+  	height: 40px; 
+  	padding: 0;	
 }
 
 .footer-address-text {
@@ -611,7 +627,6 @@ address {
   	letter-spacing: normal;
   	text-align: left;
   	color: #f3f7f9;
-  	padding-left: 133px;
 }
 
 .footer-address a {
@@ -619,7 +634,8 @@ address {
 }
 
 .footer-extras {
-	padding-left: 546px;
+	display: flex;
+	padding-left: 91px;
 }
 
 .footer-extras-ul {
@@ -635,6 +651,7 @@ address {
   	letter-spacing: normal;
   	text-align: left;
   	color: #ffd180;
+  	padding: 0px;
 }
 
 .technics {
@@ -655,6 +672,12 @@ address {
   	background-color: #293449;
 }
 
+.bottom-footer-line {
+	display: flex;
+	margin: 0 auto;
+	width: 940px;
+}
+
 .footer-copyright {
 	display: flex;
   	width: 228px;
@@ -668,12 +691,13 @@ address {
   	letter-spacing: normal;
   	text-align: left;
   	color: #ffffff;
-  	padding-left: 133px;
-  	padding-top: 39px;
+  	padding-top: 25px;
 }
 
 .footer-social {
-	padding-left: 520px;
+	display: flex;
+	padding-top: 25px;
+	padding-left: 161px;
 }
 
 .footer-social ul {
@@ -681,6 +705,7 @@ address {
   	list-style: none;
   	justify-content: space-between;
   	width: 132px;
+  	padding: 0px;
 }
 
 .social-button {
@@ -694,9 +719,12 @@ address {
 
 .footer-links {
 	display: flex;
+	padding-top: 25px;
+	
 }
 
 .footer-feedback {
+	padding-left: 119px;
 	display: flex;
   	width: 135px;
   	height: 32px;
@@ -710,6 +738,23 @@ address {
   	text-align: left;
   	color: #ffffff;
 }
+
+.footer-developers {
+	display: flex;
+	width: 96px;
+	height: 34px;
+	font-family: Cuprum;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.13;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	padding-left: 50px;
+}
+
 
 
 /* каталог*/
@@ -840,7 +885,6 @@ h1 {
 	background-image: url("../img/elements/icon-search.svg");
 	background-repeat: no-repeat;
 	padding-left: 15px;
-	padding-right: 197px;
 	background-position: left center;
 }
 
