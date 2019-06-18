@@ -1,49 +1,47 @@
 body {
-  margin: 0;
-  padding: 0;
-
-  font-family: "Cuprum", Arial, sans-serif;
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: #ffffff;
-  background-image: url("img/bg.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+  	margin: 0;
+  	padding: 0;
+  	font-family: "Cuprum", Arial, sans-serif;
+  	font-family: "PTSans", Arial, sans-serif;
+  	font-size: 13px;
+  	line-height: 24px;
+  	font-weight: 700;
+  	color: #ffffff;
+  	background-color: #ffffff;
+  	background-image: url("img/bg.jpg");
+  	background-position: top center;
+  	background-repeat: no-repeat;
 }
 
 a {
-  text-decoration: none;
+  	text-decoration: none;
 }
 
 .main-header {
-  font-size: 17px;
-  line-height: 18px;
-  color: #ffffff;
-
-  background-color: #293449;
+	font-size: 17px;
+  	line-height: 18px;
+  	color: #ffffff;
+  	background-color: #293449;
 }
 
 .top-menu-navigation,
 .user {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;
 }
 
 .top-menu-navigation a,
 .user a {
-  color: #ffffff;
+  	color: #ffffff;
 }
 
 .top-menu-navigation a:hover,
 .top-menu-navigation a:focus,
 .user a:hover,
 .user a:focus {
-  background-color: #242424;
+  	background-color: #242424;
 }
 
 a.button-green {
@@ -51,54 +49,53 @@ a.button-green {
 }
 
 h1 {
-  width: 196px;
-  height: 60px;
-  font-family: Cuprum;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: italic;
-  font-stretch: normal;
-  line-height: 1.44;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ee3643;
+  	width: 196px;
+  	height: 60px;
+  	font-family: Cuprum;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: italic;
+  	font-stretch: normal;
+  	line-height: 1.44;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ee3643;
 } 
 
 .main-navigation {
-  font-size: 17px;
-  line-height: 17px;
-  color: #ffffff;
-  box-shadow: inset 0px -5px 0 0 #293449;
-  background-color: #32425c;
-  width: 940px;
-  height: 60px;
+  	font-size: 17px;
+  	line-height: 17px;
+  	color: #ffffff;
+  	box-shadow: inset 0px -5px 0 0 #293449;
+  	background-color: #32425c;
+  	width: 940px;
+  	height: 60px;
 }
 
 .main-navigation {
-  list-style: none;
+  	list-style: none;
 }
 
 .main-navigation a {
-  color: #ffffff;
+  	color: #ffffff;
 }
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  background-color: #242424;
+  	background-color: #242424;
 }
 
 .index-columns {
-  color: #000000;
-
-  background-color: #ffffff;
-  background-image: url("img/pattern-light.jpg"); 
-  background-position: 0 0;
-  background-repeat: repeat;
+  	color: #000000;
+  	background-color: #ffffff;
+  	background-image: url("img/pattern-light.jpg"); 
+  	background-position: 0 0;
+  	background-repeat: repeat;
 }
 
 .index-columns h2 {
-  font-size: 30px;
-  line-height: 30px;
+  	font-size: 30px;
+  	line-height: 30px;
 }
 
 .company-names {
@@ -106,51 +103,49 @@ h1 {
 }
 
 .map-address {
-  background-color: #cccccc;
+  	background-color: #cccccc;
 }
 
 .company-names a,
 .map-address a {
-  color: #ffffff;
+  	color: #ffffff;
 }
 
 .company-names a:hover,
 .company-names a:focus,
 .map-address a:hover,
 .map-address a:focus {
-  background-color: #242424;
+  	background-color: #242424;
 }
 
 .button {
-  font: inherit;
-
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
-
-  background-color: #000000;
-  border: none;
+  	font: inherit;
+  	text-align: center;
+  	color: #ffffff;
+  	vertical-align: middle;
+  	text-transform: uppercase;
+  	background-color: #000000;
+  	border: none;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-  background-color: #663d15;
+  	background-color: #663d15;
 }
 
 .main-footer {
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 24px;
+  	color: #ffffff;
+  	font-size: 18px;
+ 	line-height: 24px;
 
-  background-color: #32425c;
-  background-position: 0 0;
-  background-repeat: repeat;
+  	background-color: #32425c;
+  	background-position: 0 0;
+  	background-repeat: repeat;
 }
 
 .footer-navigation {
-  list-style: none;
+  	list-style: none;
 }
 
 .footer-navigation a {
@@ -160,12 +155,12 @@ h1 {
 .footer-navigation a:hover,
 .footer-navigation a:focus
 {
-  text-decoration: underline;
-  background-color: #242424;
+  	text-decoration: underline;
+  	background-color: #242424;
 }
 
 .footer-extras {
-  list-style: none;
+  	list-style: none;
 }
 
 .footer-extras a {
@@ -175,65 +170,65 @@ h1 {
 .footer-extras a:hover,
 .footer-extras a:focus
 {
-  text-decoration: underline;
-  background-color: #242424;
+  	text-decoration: underline;
+  	background-color: #242424;
 }
 
 .footer-social {
-  text-align: center;
+  	text-align: center;
 }
 
 .footer-social ul {
-  list-style: none;
+  	list-style: none;
 }
 
 .social-button {
-  color: #ffffff;
+  	color: #ffffff;
 }
 
 .footer-social a:hover,
 .footer-social a:focus {
-  background-color: #ee3643;
+  	background-color: #ee3643;
 }
 
 .footer-copyright {
-  text-align: center;
+  	text-align: center;
 }
 
 .footer-copyright ul {
-  list-style: none;
+  	list-style: none;
 }
 
 .footer-copyright {
-  color: #000000;
+  	color: #000000;
 
-  background-color: #293449;
+	background-color: #293449;
 }
 
 .footer-feedback a {
-  color: #ffd180;
+  	color: #ffd180;
 }
 
 .footer-feedback a:hover {
-  text-decoration: underline;
+  	text-decoration: underline;
 
 }
 
 .footer-feedback a:focus {
-  color: #ee3643;
+  	color: #ee3643;
 }
 
 .footer-developers a {
-  color: #ffd180;
+  	color: #ffd180;
 }
 
 .footer-developers a:hover {
-  text-decoration: underline;
+  	text-decoration: underline;
 
 }
 
 .footer-developers a:focus {
-  color: #ee3643;
+  	color: #ee3643;
 }
 
 .inner-page {
@@ -619,6 +614,10 @@ address {
   	padding-left: 133px;
 }
 
+.footer-address a {
+	color: #f3f7f9;
+}
+
 .footer-extras {
 	padding-left: 546px;
 }
@@ -657,6 +656,7 @@ address {
 }
 
 .footer-copyright {
+	display: flex;
   	width: 228px;
   	height: 33px;
   	font-family: Cuprum;
@@ -673,5 +673,235 @@ address {
 }
 
 .footer-social {
-	
+	padding-left: 520px;
+}
+
+.footer-social ul {
+	display: flex;
+  	list-style: none;
+  	justify-content: space-between;
+  	width: 132px;
+}
+
+.social-button {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 42px;
+  	height: 42px;
+  	background-color: #212a3a;
+}
+
+.footer-links {
+	display: flex;
+}
+
+.footer-feedback {
+	display: flex;
+  	width: 135px;
+  	height: 32px;
+  	font-family: Cuprum;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.13;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ffffff;
+}
+
+
+/* каталог*/
+/*
+.inner-page body {
+	margin: 0;
+  	padding: 0;
+  	font-family: "Cuprum", Arial, sans-serif;
+  	font-family: "PTSans", Arial, sans-serif;
+  	font-size: 13px;
+  	line-height: 24px;
+  	font-weight: 700;
+  	color: #ffffff;
+  	background-color: #ffffff;
+  	background-image: url("img/bg.jpg");
+  	background-position: top center;
+  	background-repeat: no-repeat;
+}
+
+.inner-page a {
+  	text-decoration: none;
+}
+
+.inner-page main-header {
+	font-size: 17px;
+  	line-height: 18px;
+  	color: #ffffff;
+  	background-color: #293449;
+}
+
+.inner-page .top-menu-navigation,
+.user {
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;
+}
+
+.inner-page .top-menu-navigation a,
+.user a {
+  	color: #ffffff;
+}
+
+.inner-page .top-menu-navigation a:hover,
+.top-menu-navigation a:focus,
+.user a:hover,
+.user a:focus {
+  	background-color: #242424;
+}
+
+a.button-green {
+	background-color: #63a63e;
+}
+
+h1 {
+  	width: 196px;
+  	height: 60px;
+  	font-family: Cuprum;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: italic;
+  	font-stretch: normal;
+  	line-height: 1.44;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ee3643;
+} 
+
+.main-navigation {
+  	font-size: 17px;
+  	line-height: 17px;
+  	color: #ffffff;
+  	box-shadow: inset 0px -5px 0 0 #293449;
+  	background-color: #32425c;
+  	width: 940px;
+  	height: 60px;
+}
+
+.main-navigation {
+  	list-style: none;
+}
+
+.main-navigation a {
+  	color: #ffffff;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  	background-color: #242424;
+}
+
+
+/* сетки каталога */
+
+.inner-page .main-header {
+	margin-bottom: 46px;
+	min-height: 47px;
+}
+
+.inner-page .main-header-top {
+	display: flex;
+	height: 42px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.inner-page .top-menu-navigation-bookmarks {
+	display: flex;
+	background-image: url("../img/elements/icon-bookmark.svg");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}
+
+.inner-page .top-menu-navigation-bookmarks-link {
+	display: flex;
+	align-items: center;
+}
+
+.inner-page .main-header-logo {
+	display: flex;
+	padding-right: 17px;
+}
+
+.inner-page .search {
+	display: flex;
+	align-items: center;
+	background-image: url("../img/elements/icon-search.svg");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-right: 197px;
+	background-position: left center;
+}
+
+.inner-page .top-menu-navigation-cart {
+	display: flex;
+	background-image: url("../img/elements/icon-cart.svg");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}
+
+.inner-page .top-menu-navigation-cart-link {
+	display: flex;
+	align-items: center;
+}
+
+.inner-page .main-header-middle {
+	display: flex;
+	height: 158px;
+	width: 940px;
+	margin: 0 auto;
+	background-color: #f4f7f9;
+}
+
+.inner-page h1 {
+	padding-left: 53px;
+	margin-right: 71px;
+	padding-top: 35px;
+}
+
+.inner-page .address-top {
+	display: flex;
+	padding-left: 71px;
+	background-image: url("../img/elements/icon-phone.svg");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+	width: 270px;
+	height: 45px;
+	border: 3px solid white;
+}
+
+.inner-page address a {
+	color: #ee3643;
+	list-style: none;
+	align-items: center;
+	font-family: Cuprum;
+	font-size: 21px;
+	font-style: normal;
+}
+
+.inner-page address {
+	padding-top: 46px;
+}
+
+.inner-page .address-text {
+	font-family: Cuprum;
+	font-size: 14px;
+	font-style: normal;
+	color: #32425c;
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 10px;
 }
